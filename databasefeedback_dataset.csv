@@ -1,0 +1,13 @@
+feedback,sentiment
+"The teacher explains concepts very clearly",Positive
+"Excellent teaching and very helpful teacher",Positive
+"I really enjoyed the lectures",Positive
+"The subject is interesting and easy to understand",Positive
+"The teacher is supportive and good",Positive
+"Very good teaching method",Positive
+"The lectures are confusing",Negative
+"Teaching is very poor",Negative
+"I did not understand the concepts",Negative
+"The lectures are too fast",Negative
+"The teacher does not explain properly",Negative
+"Very bad teaching experience",Negative
