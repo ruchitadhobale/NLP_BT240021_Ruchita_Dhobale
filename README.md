@@ -79,7 +79,7 @@ Example:
 
 ## 8. Project Workflow
 
-```text
+
 Student Feedback
        ↓
 Text Preprocessing
@@ -90,4 +90,71 @@ Machine Learning Model
        ↓
 Sentiment Prediction
        ↓
-Positive / Negative
+Positive / Negative 
+
+## 9. Execution / How to Run
+1. Install Python on your system.
+2. Install the required libraries using:
+   pip install -r requirements.txt
+3. Open the project folder in VS Code.
+4. Run the application using:
+   python -m streamlit run app.py
+5. Enter student feedback in the text box.
+6. Click on "Analyze Sentiment".
+7. The system displays the predicted sentiment as Positive or Negative.
+
+## 10. Sample Input and Output
+### Positive Feedback
+
+Input:
+The teacher explains concepts very clearly.
+
+Output:
+😊 Sentiment: POSITIVE
+
+### Negative Feedback
+
+Input:
+The lectures are confusing.
+
+Output:
+😞 Sentiment: NEGATIVE
+
+## 11. Results and Observations
+The system successfully analyzes student feedback and classifies it into Positive or Negative sentiment. TF-IDF is used to convert text into numerical features, while Logistic Regression is used for sentiment classification.
+
+## 12. Real-World Applications
+- Student feedback analysis
+- Teacher performance evaluation
+- Course quality assessment
+- College feedback management
+- Automated survey analysis
+
+## 13. Future Scope
+- Add Neutral sentiment classification
+- Use a larger real-world dataset
+- Improve model accuracy
+- Add graphical analysis of feedback
+- Support multiple languages
+
+## 14. Conclusion
+The Student Feedback Sentiment Analyzer demonstrates how Natural Language Processing and Machine Learning can be used to automatically understand student opinions. The system provides a simple and useful approach for classifying student feedback into Positive and Negative sentiments.
+
+## 15. References
+- Python Documentation
+- Scikit-learn Documentation
+- Streamlit Documentation
+- Natural Language Processing academic resources
+
+## Screenshots
+### Application Home Page
+
+![Home Page](screenshots/app_home.png)
+
+### Positive Sentiment
+
+![Positive Result](screenshots/positive_result.png)
+
+### Negative Sentiment
+
+![Negative Result](screenshots/negative_result.png)
